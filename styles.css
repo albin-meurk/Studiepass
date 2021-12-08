@@ -59,78 +59,7 @@ nav.länkar{
     z-index:2;
     /* är texten på toppen av webbsiden.och textfan vill inte ligga framför bildfan */
 }
-/* Start på Navbaren */
-/* .navbar{
-    overflow: hidden;
-    background-color: rgb(230, 230, 230);
-    padding: 20px;
-    
 
-}
-.navbar a{
-    z-index: 2;
-    float: left;
-    font-size: 16px;
-    color: #4b4b4b;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  
-}
-.dropdown {
-    z-index: 3;
-    float:left;
-    overflow: hidden;
-} */
-/* Start dropdown menu */
-/* .dropdown .dropbtn{
-    z-index: 4;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: #4b4b4b;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-.navbar a:hover, .dropdown:hover .dropbtn{
-    background-color:rgb(167, 167, 167);
-  
-}
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 0;
-}
-.dropdown-content a{
-    float: none;
-    color: black;  
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-.dropdown-content a:hover{
-    background-color: #ddd;
-    z-index: 0;
-}
-.dropdown:hover .dropdown-content{
-    display: block;
-    z-index: 0;
-}
-.dropdown:hover .dropbtn {
-    background-color: rgb(167, 167, 167);
-    z-index: 0;
-}
-.dropdown li{
-    list-style:none ;
-   
-} */
-/* Slut dropdown menu */
 li.lin{
     display: inline-block;
     text-align: center;
@@ -330,7 +259,6 @@ li{
   [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
-    speak: never;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
