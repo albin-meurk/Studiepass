@@ -1,0 +1,444 @@
+body, ul, li, h1, h2 a{
+    margin:0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html{
+    margin: 0px;
+    background-color: rgb(197, 218, 206);
+    max-width: 100%;
+    overflow-x:hidden;
+}
+header{     
+    background-color: #d3d4c1;
+    padding: 1% 1%;
+    position: sticky;
+    width: 98%;
+    z-index: 1;
+
+}
+img.logga{
+    width:25%;
+}
+.banner{
+ position: relative;
+ top: 0%;
+ z-index: -1;
+}
+.banner img{
+    width: 100%;
+    top: 0%;
+    z-index: -1;
+}
+.banner .welcome{
+    color: rgb(13, 112, 104);
+    padding: 30px;
+    position: absolute;
+    left: 57%;
+    top:2%;
+}
+.banner h2{
+    font-size: 74px;
+}
+  
+.banner h2 span{
+    font-size: 1.3em;
+}
+  
+img.emblem{
+    width: 120px;
+    padding: 8px;
+    margin: 0px;
+    display: inline;
+    float: left;
+}
+nav.länkar{
+    position: sticky;
+    top:0%;
+    z-index:2;
+    /* är texten på toppen av webbsiden.och textfan vill inte ligga framför bildfan */
+}
+/* Start på Navbaren */
+/* .navbar{
+    overflow: hidden;
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+    
+
+}
+.navbar a{
+    z-index: 2;
+    float: left;
+    font-size: 16px;
+    color: #4b4b4b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+}
+.dropdown {
+    z-index: 3;
+    float:left;
+    overflow: hidden;
+} */
+/* Start dropdown menu */
+/* .dropdown .dropbtn{
+    z-index: 4;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #4b4b4b;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color:rgb(167, 167, 167);
+  
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 0;
+}
+.dropdown-content a{
+    float: none;
+    color: black;  
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+    z-index: 0;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    z-index: 0;
+}
+.dropdown:hover .dropbtn {
+    background-color: rgb(167, 167, 167);
+    z-index: 0;
+}
+.dropdown li{
+    list-style:none ;
+   
+} */
+/* Slut dropdown menu */
+li.lin{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    font-size: 24px;
+    list-style: none;
+}
+
+ul.länkar{
+    max-width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+    text-decoration: none;
+    position: sticky;
+    /* får bort punkterna för ul */
+}
+
+ul.ullink{
+    z-index: 1;
+}
+li.links{
+    z-index: 1;
+}
+li.a{
+    padding-right: 1000px;
+    color: rgb(173, 197, 184);
+    background-color: rgb(173, 197, 184);
+    padding-top: 12px;
+    padding-bottom: 14px;
+    padding-right: 10000px;
+    }
+
+div.girl{
+    float: right;
+    
+    /* Bilden av tjejen, uppdatera senare. */
+}
+iframe.studiepass{
+    max-height: 50%;
+    width: 66.66666666%;
+    position: relative;
+    left: 20%;
+    height: 540px;
+    border: 3px solid rgb(13, 112, 104);
+    padding: 0px 0px;
+    display: inline-block;
+    border-radius: 15px;
+}
+.links{
+    color: white
+}
+
+
+
+a:link{
+    text-decoration: none;
+}
+
+
+
+article.välkommentext{
+    font-size: 200%; 
+    color: rgb(13, 112, 104);
+    margin-left:50%;
+    border: 2px solid rgb(248, 253, 239);
+    background-color: rgb(248, 253, 239);
+    padding: 6px 25px;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+
+footer{
+    background: #004f72; 
+    color: white;
+    padding: 0px; 
+    display: block;
+    bottom:0px;
+    text-align: center;
+    width: 100%;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+
+/* MUSIK.html */
+div.pluggmusik{
+    font-size: 1.2em;
+    padding-left:1.1em;
+}
+
+a:link{
+    text-decoration: none;
+}
+iframe.studiepass{
+    text-align: left;
+    float: left;
+    display: inline;
+    empty-cells: hide;
+    border-collapse: collapse;
+}
+ul.musik{
+    margin: 0 auto;
+    list-style: none;
+    text-decoration: none;
+}
+
+li.musik{
+    text-align: center;
+    list-style: none;
+}
+
+iframe.spotify{
+    width: 32%;
+    height: 750px;
+    padding: 10px;
+    margin: 0;
+    border-color: white;
+    float: right;
+}
+iframe.spotify2{
+    width: 32%;
+    margin: 0;
+    height: 750px;
+    padding: 10px;
+    border-color: white;
+    float: left;
+}
+iframe.soundcloud{
+    width: 32%;
+    margin: 0;
+    height: 750px;
+    padding: 10px;
+    border-color: white;
+    position: center;
+}
+/* DET VAR ALLT FÖR MUSIK TACK */
+/* START PÅ NAVBAR MED PULLDOWN MENU */
+nav ul.mainMenu{
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+    white-space: nowrap;
+    max-width: 100%;
+}
+nav .mainMenu>li{
+    display: inline-block; 
+    margin: -5px;
+    
+}
+nav a{
+    margin: 0;
+    text-align: left;
+    padding: 12px 15px 14px 15px;
+    background-color:rgb(173, 197, 184);
+    text-decoration: none;
+    position: relative;
+    color: white;
+    display: block;
+}
+nav li:hover>a{
+    background: rgb(81, 129, 111);
+    cursor: pointer;
+}
+nav .subMenu,nav .superSubMenu{
+    position: absolute;
+    display: none;
+}
+nav .subMenu li{
+    position: relative;
+
+}
+nav .superSubMenu{
+    top: 0;
+    right: 0;
+    transform: translate(100%);
+}
+nav .mainMenu>li:hover .subMenu,nav .subMenu>li:hover>.superSubMenu{
+    display: block;
+}
+li{
+    list-style: none;
+}
+
+/* MASSA COOLA ICON CSS SOM JAG KOPIERADE FRÅN ICOMOON ZIP FILEN JAG FICK NÄR JA GJORDE DETTA ICON TYPSNITT */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?nldnyd');
+    src:  url('../fonts/icomoon.eot?nldnyd#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?nldnyd') format('truetype'),
+      url('../fonts/icomoon.woff?nldnyd') format('woff'),
+      url('../fonts/icomoon.svg?nldnyd#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-Dagens_Nyheter_Logo:before {
+    content: "\e900";
+  }
+  .icon-duolingo-2019-01-02:before {
+    content: "\e901";
+  }
+  .icon-easybib:before {
+    content: "\e902";
+  }
+  .icon-ehingernu-icon-1:before {
+    content: "\e903";
+  }
+  .icon-encyclop-dia-britannica:before {
+    content: "\e904";
+  }
+  .icon-favicon-2:before {
+    content: "\e905";
+  }
+  .icon-icon-grammarly:before {
+    content: "\e906";
+  }
+  .icon-ilt:before {
+    content: "\e907";
+  }
+  .icon-khanacademy:before {
+    content: "\e908";
+  }
+  .icon-NE_logo_positiv:before {
+    content: "\e909";
+  }
+  .icon-png-transparent-wolfram-alpha-computer-icons-internet-email-logo-angle-symmetry-sms:before {
+    content: "\e90a";
+  }
+  .icon-synonymer:before {
+    content: "\e90b";
+  }
+  .icon-thesaurus:before {
+    content: "\e90c";
+  }
+  .icon-Utbildningsradion_-_logo:before {
+    content: "\e90d";
+  }
+  .icon-youtube-1:before {
+    content: "\e90e";
+  }
+  
+/* SLUT PÅ NAVBAR MED PULLDOWN MENU */
+/* media screen */
+@media screen and (max-width: 1400px) {
+    .banner .welcome h2{
+      font-size: 60px;
+    }
+  
+  }
+
+
+@media screen and (max-width: 960px) {
+    .banner .welcome h2{
+      font-size: 40px;
+    }
+    div.välkommentext{
+        display:none;
+    }
+    iframe.studiepass{
+        width: 98%;
+        left: 0;
+        right: 0;
+    }
+  }
+  
+@media screen and (max-width: 700px) {
+    .banner .welcome{
+      padding: 10px;
+    }
+    
+    .banner .welcome br{
+      display: none;
+    }
+  
+    .banner .welcome h2{
+      font-size: 25px;
+    }
+  
+    .banner .welcome span{
+      font-size: 1em;
+    }
+  
+
+  }
+@media screen and (max-width: 560px) {
+    nav li{
+      font-size: 20px;
+      display: block;
+      margin: 12px 0;
+    }
+  
+    header{
+      position: relative;
+    }
+  }
